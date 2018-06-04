@@ -16,4 +16,3 @@ public class Lazy {
         System.out.println(lazyClass.getLazyValue());
     }
 }
-    
