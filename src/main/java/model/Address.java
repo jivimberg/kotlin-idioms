@@ -1,13 +1,16 @@
 package model;
 
 public class Address {
-    private final String city;
+    private String city;
 
-    public Address(String city) {
-        this.city = city;
+    public Address() {
     }
 
     public String getCity() {
         return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }
