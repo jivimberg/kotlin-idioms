@@ -11,7 +11,7 @@ private inline fun <reified T> fromJson(json: String): T? {
 }
 
 fun main(args: Array<String>) {
-    val json = "{ \"city\" : \"San Francisco\" }"
+    val json = """{ "city" : "San Francisco" }"""
     val address: Address? = fromJson(json)
     println(address)
 }
